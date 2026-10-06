@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "calledtoconstruct.backup-status",
+  "name": "Backup status",
+  "version": "1.0.0",
+  "author": "calledtoconstruct",
+  "description": "Bar badge for the next borgmatic backup, an in-progress run, and a failed last run",
+  "license": "MIT",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "StatusWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Backup status",
+    "description": "Next backup, in progress, or failed",
+    "category": "Plugin",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
